@@ -13,5 +13,17 @@ namespace Turnos.Models
         // DBset es una tabla, va a ser de tipo especialidad (lo agarra del modelo especialidad)
         //por último, le asignamos el nombre de "Especialidad"
         public DbSet<Especialidad> Especialidad{ get; set; }
+
+        //modelBuilder es el modelo que recibimos de namespace Turnos.models
+        protected override void OnModelCreating(ModelBuilder modelBuilder){
+            modelBuilder.Entity<Especialidad>(entidad=>{
+                //Nombre de la tabla
+                entidad.ToTable("Especialidad");
+                //Primary key de la tabla
+                entidad.HasKey(e=>e.IdEspecialidad);
+                //Campo descripción, no puede ser nulo, a lo mucho puede tener 200 caracteres
+                entidad.Property(e=>e.Descripcion).IsRequired().HasMaxLength(200).IsUnicode(false);
+            });
+        }
     }
 }

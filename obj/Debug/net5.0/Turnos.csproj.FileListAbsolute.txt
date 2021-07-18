@@ -70,3 +70,5 @@ C:\Users\lalor\Programas\VSCode\Proyecto core\Turnos\bin\Debug\net5.0\runtimes\w
 C:\Users\lalor\Programas\VSCode\Proyecto core\Turnos\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\lalor\Programas\VSCode\Proyecto core\Turnos\obj\Debug\net5.0\Razor\Views\Especialidad\Index.cshtml.g.cs
 C:\Users\lalor\Programas\VSCode\Proyecto core\Turnos\obj\Debug\net5.0\Razor\Views\Especialidad\Edit.cshtml.g.cs
+C:\Users\lalor\Programas\VSCode\Proyecto core\Turnos\obj\Debug\net5.0\Razor\Views\Especialidad\Delete.cshtml.g.cs
+C:\Users\lalor\Programas\VSCode\Proyecto core\Turnos\obj\Debug\net5.0\Razor\Views\Especialidad\Create.cshtml.g.cs

@@ -15644,6 +15644,16 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\lalor\\Programas\\VSCode\\Proyecto core\\Turnos\\Views\\Especialidad\\Create.cshtml",
+      "TargetPath": "Views\\Especialidad\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\lalor\\Programas\\VSCode\\Proyecto core\\Turnos\\Views\\Especialidad\\Delete.cshtml",
+      "TargetPath": "Views\\Especialidad\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\lalor\\Programas\\VSCode\\Proyecto core\\Turnos\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "FileKind": "mvc"

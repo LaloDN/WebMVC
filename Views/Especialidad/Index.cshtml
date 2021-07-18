@@ -1,6 +1,8 @@
 @model IEnumerable<Turnos.Models.Especialidad>
 <!--Agregamos el modelo especialidad, con el IEnumerable aseguramos que podemos iterar a través
 de la lista y recorrer los registros-->    
+
+<p><a asp-action="Create">Nuevo registro</a></p>
 <table border="3px">
         <thead>
             <tr>
@@ -17,6 +19,7 @@ de la lista y recorrer los registros-->
                         </td>
                         <td>
                             <a asp-action="Edit" asp-route-id="@item.IdEspecialidad">Editar</a>
+                            <a asp-action="Delete" asp-route-id="@item.IdEspecialidad">Eliminar</a>
                         </td>
                     </tr>
                 }
