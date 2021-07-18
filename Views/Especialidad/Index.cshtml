@@ -1,0 +1,24 @@
+@model IEnumerable<Turnos.Models.Especialidad>
+<!--Agregamos el modelo especialidad, con el IEnumerable aseguramos que podemos iterar a través
+de la lista y recorrer los registros-->    
+<table border="3px">
+        <thead>
+            <tr>
+             <!--Le enviamos al método displayfor la descripcion de nuestro modelo-->
+                @Html.DisplayNameFor(model=>model.Descripcion)
+            </tr> 
+        </thead>
+            <tbody>
+                @*El razor entiende que 'Model' es nuestera entidad especialidad*@
+                @foreach(var item in Model){
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Descripcion)
+                        </td>
+                        <td>
+                            <a asp-action="Edit" asp-route-id="@item.IdEspecialidad">Editar</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+</table>
