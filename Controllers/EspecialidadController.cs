@@ -66,7 +66,7 @@ namespace Turnos.Controles
             if(id==null){
                 return NotFound();
             }
-            //Ahora de la base de datos en la tabala especialidad con firstordefault encontramos el primer coincidencia
+            //Ahora de la base de datos en la tabala especialidad con firstordefault encontramos el primer coincidencia               
             var especialidad= await _context.Especialidad.FirstOrDefaultAsync(e=>e.IdEspecialidad==id);
             //Por si el Id no es nulo pero el id no existe en la tabla
             if(especialidad==null){
