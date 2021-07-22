@@ -1,0 +1,31 @@
+@model IEnumerable<Turnos.Models.Paciente>
+
+<p><a asp-action="Create">Nuevo registro</a></p>
+<table>
+    <thead>
+        <tr>
+            @Html.DisplayNameFor(model=>model.Nombre)
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var item in Model){
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem=>item.Nombre)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem=>item.Apellido)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem=>item.Direccion)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem=>item.Telefono)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem=>item.Email)
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
