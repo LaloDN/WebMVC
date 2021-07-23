@@ -4,7 +4,21 @@
 <table>
     <thead>
         <tr>
-            @Html.DisplayNameFor(model=>model.Nombre)
+            <th>
+                @Html.DisplayNameFor(model=>model.Nombre)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model=>model.Apellido)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model=>model.Direccion)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model=>model.Telefono)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model=>model.Email)
+            </th>
         </tr>
     </thead>
     <tbody>
@@ -24,6 +38,11 @@
                 </td>
                 <td>
                     @Html.DisplayFor(modelItem=>item.Email)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.IdPaciente">Editar</a>
+                    <a asp-action="Details" asp-route-id="@item.IdPaciente">Detalle</a>
+                    <a asp-action="Delete" asp-route-id="@item.IdPaciente">Eliminar</a>
                 </td>
             </tr>
         }

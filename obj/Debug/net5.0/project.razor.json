@@ -15639,8 +15639,23 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\lalor\\Programas\\VSCode\\Proyecto core\\Turnos\\Views\\Paciente\\Delete.cshtml",
+      "TargetPath": "Views\\Paciente\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\lalor\\Programas\\VSCode\\Proyecto core\\Turnos\\Views\\Shared\\_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\lalor\\Programas\\VSCode\\Proyecto core\\Turnos\\Views\\Paciente\\Details.cshtml",
+      "TargetPath": "Views\\Paciente\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\lalor\\Programas\\VSCode\\Proyecto core\\Turnos\\Views\\Paciente\\Edit.cshtml",
+      "TargetPath": "Views\\Paciente\\Edit.cshtml",
       "FileKind": "mvc"
     },
     {

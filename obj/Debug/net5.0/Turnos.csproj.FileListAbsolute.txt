@@ -74,3 +74,6 @@ C:\Users\lalor\Programas\VSCode\Proyecto core\Turnos\obj\Debug\net5.0\Razor\View
 C:\Users\lalor\Programas\VSCode\Proyecto core\Turnos\obj\Debug\net5.0\Razor\Views\Especialidad\Create.cshtml.g.cs
 C:\Users\lalor\Programas\VSCode\Proyecto core\Turnos\obj\Debug\net5.0\Razor\Views\Paciente\Create.cshtml.g.cs
 C:\Users\lalor\Programas\VSCode\Proyecto core\Turnos\obj\Debug\net5.0\Razor\Views\Paciente\Index.cshtml.g.cs
+C:\Users\lalor\Programas\VSCode\Proyecto core\Turnos\obj\Debug\net5.0\Razor\Views\Paciente\Details.cshtml.g.cs
+C:\Users\lalor\Programas\VSCode\Proyecto core\Turnos\obj\Debug\net5.0\Razor\Views\Paciente\Edit.cshtml.g.cs
+C:\Users\lalor\Programas\VSCode\Proyecto core\Turnos\obj\Debug\net5.0\Razor\Views\Paciente\Delete.cshtml.g.cs

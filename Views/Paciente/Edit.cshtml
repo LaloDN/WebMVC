@@ -1,41 +1,46 @@
 @model Turnos.Models.Paciente
- 
-<h4>Paciente</h4>
+
+<h4>Editar paciente</h4>
+
 <div>
-    <form asp-action="Create">
+    <form asp-action="Edit">
         <div asp-validation-summary="ModelOnly"></div>
+        <input type="hidden" asp-for="IdPaciente">
         <div>
             <label asp-for="Nombre"></label>
             <input asp-for="Nombre">
             <span asp-validation-for="Nombre"></span>
         </div>
+        
         <div>
             <label asp-for="Apellido"></label>
             <input asp-for="Apellido">
             <span asp-validation-for="Apellido"></span>
         </div>
+      
         <div>
             <label asp-for="Direccion"></label>
             <input asp-for="Direccion">
             <span asp-validation-for="Direccion"></span>
         </div>
+        
         <div>
             <label asp-for="Telefono"></label>
             <input asp-for="Telefono">
             <span asp-validation-for="Telefono"></span>
         </div>
+
         <div>
             <label asp-for="Email"></label>
             <input asp-for="Email">
             <span asp-validation-for="Email"></span>
         </div>
-        <div>
-            <input type="submit" value="Guardar">
-        </div>
+        <input type="submit" value="Guardar cambios">
     </form>
 </div>
 
-
 <div>
-    <a asp-action="Index">Regresar</a>
+    <a asp-action="Details" asp-route-id="@Model.IdPaciente">Ir a detalles</a>
+    <a asp-action="Index">Inicio</a>
 </div>
+
