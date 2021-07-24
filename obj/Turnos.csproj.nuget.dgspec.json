@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lalor\\Programas\\VSCode\\Proyecto core\\Turnos\\Turnos.csproj": {}
+    "c:\\Users\\lalor\\Programas\\VSCode\\Proyecto core\\Turnos\\Turnos.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lalor\\Programas\\VSCode\\Proyecto core\\Turnos\\Turnos.csproj": {
+    "c:\\Users\\lalor\\Programas\\VSCode\\Proyecto core\\Turnos\\Turnos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lalor\\Programas\\VSCode\\Proyecto core\\Turnos\\Turnos.csproj",
+        "projectUniqueName": "c:\\Users\\lalor\\Programas\\VSCode\\Proyecto core\\Turnos\\Turnos.csproj",
         "projectName": "Turnos",
-        "projectPath": "C:\\Users\\lalor\\Programas\\VSCode\\Proyecto core\\Turnos\\Turnos.csproj",
+        "projectPath": "c:\\Users\\lalor\\Programas\\VSCode\\Proyecto core\\Turnos\\Turnos.csproj",
         "packagesPath": "C:\\Users\\lalor\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lalor\\Programas\\VSCode\\Proyecto core\\Turnos\\obj\\",
+        "outputPath": "c:\\Users\\lalor\\Programas\\VSCode\\Proyecto core\\Turnos\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -53,6 +53,10 @@
               "version": "[5.0.0, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[5.0.0, )"
             }
