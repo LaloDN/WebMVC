@@ -15649,6 +15649,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\lalor\\Programas\\VSCode\\Proyecto core\\Turnos\\Views\\Medico\\Edit.cshtml",
+      "TargetPath": "Views\\Medico\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\lalor\\Programas\\VSCode\\Proyecto core\\Turnos\\Views\\Paciente\\Details.cshtml",
       "TargetPath": "Views\\Paciente\\Details.cshtml",
       "FileKind": "mvc"
@@ -15656,6 +15661,11 @@
     {
       "FilePath": "c:\\Users\\lalor\\Programas\\VSCode\\Proyecto core\\Turnos\\Views\\Paciente\\Edit.cshtml",
       "TargetPath": "Views\\Paciente\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\lalor\\Programas\\VSCode\\Proyecto core\\Turnos\\Views\\Medico\\Index.cshtml",
+      "TargetPath": "Views\\Medico\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -15689,6 +15699,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\lalor\\Programas\\VSCode\\Proyecto core\\Turnos\\Views\\Medico\\Create.cshtml",
+      "TargetPath": "Views\\Medico\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\lalor\\Programas\\VSCode\\Proyecto core\\Turnos\\Views\\Home\\Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
       "FileKind": "mvc"
@@ -15696,6 +15711,16 @@
     {
       "FilePath": "c:\\Users\\lalor\\Programas\\VSCode\\Proyecto core\\Turnos\\Views\\Especialidad\\Edit.cshtml",
       "TargetPath": "Views\\Especialidad\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\lalor\\Programas\\VSCode\\Proyecto core\\Turnos\\Views\\Medico\\Details.cshtml",
+      "TargetPath": "Views\\Medico\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\lalor\\Programas\\VSCode\\Proyecto core\\Turnos\\Views\\Medico\\Delete.cshtml",
+      "TargetPath": "Views\\Medico\\Delete.cshtml",
       "FileKind": "mvc"
     }
   ],

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bZu2k8NpQpNkxGtwC3HYhz4FrPqSZMVcFctryBVyt0vBKjDbO/GbVuwNHS39t0d/bocMSF28iMBDtCmUKSGALw==",
+  "dgSpecHash": "StXxo3Ug64ueeFr8d1oq9RP/+WDDnmmfuHUSfu1NdIqxo5vUzOppoCm+icLLASJMODfZrsJFKv37Tcc4gGJfag==",
   "success": true,
-  "projectFilePath": "c:\\Users\\lalor\\Programas\\VSCode\\Proyecto core\\Turnos\\Turnos.csproj",
+  "projectFilePath": "C:\\Users\\lalor\\Programas\\VSCode\\Proyecto core\\Turnos\\Turnos.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lalor\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\lalor\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
